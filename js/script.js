@@ -31,3 +31,29 @@ filterButtons.forEach(function(buttons){
 })();
 
 //search input
+//target search box
+
+(function(){
+ let search = document.getElementById("search-item");
+ search.addEventListener('keyup',function(){
+     let value = search.value.toLowerCase().trim();//i said that value variable is equal to that that search item ffrom input
+     //console.log(value);//getting back the values from search input
+     
+     let items = document.querySelectorAll('.store-item');//target them
+     items.forEach(function(item){//loop through them 
+         let type = item.dataset.item;//targeting that store item(data-item)
+         
+
+         let length = value.length; //the lenght of the value from search input
+         let match = type.slice(0,length); //that value from search if it is cake it will check from 0 whic is c to the end of array
+       if(value === match){
+        item.style.display = "block";
+       }else{
+        item.style.display = "none";
+       }
+     })
+     
+ })
+
+
+})();
