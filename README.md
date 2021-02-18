@@ -11,8 +11,7 @@ does have some requirements:
 - Must have at least two routes (pages) ✔
 - Must make an external REST call ✔
 - Must display the data retrieved from the REST call ✔
-- Must do any data transformation/manipulation before being presented  ✔
-- to the user (e.g. sorting, filtering, enrichment) ✔
+- Must do any data transformation/manipulation before being presented to the user (e.g. sorting, filtering, enrichment) ✔
 - Must contain at least basic CSS styling  ✔
 - Must handle errors ✔
 
