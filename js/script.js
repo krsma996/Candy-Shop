@@ -1,3 +1,7 @@
+
+
+
+
 //filter btns
 (function(){
 //select all buttons
@@ -112,4 +116,5 @@ let btnRight = document.querySelector(".btnRight");//we selected btnRight
     item.style.backgroundImage = `url(${imageList[counter]})`;
   });
 })();
+
 
