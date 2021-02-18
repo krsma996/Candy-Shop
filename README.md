@@ -1,5 +1,10 @@
 # Candy Shop Project
  
+ The assignment is to create a simple Single Page Application using
+vanilla JS running in the browser without having to be built. The
+assignment is mostly open-ended so you are free to be creative, but it
+does have some requirements:
+ 
  
  Must be written in pure JS (no frameworks) ✔
 - Must be a Single Page Application ✔
